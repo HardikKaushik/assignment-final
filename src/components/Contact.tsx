@@ -1,5 +1,5 @@
-'use Client'
-
+'use client'
+import Image from "next/image"
 function Contact() {
   return (
    <>
@@ -82,7 +82,7 @@ function Contact() {
                         </a>
 
                     </div>
-      <img className="mx-80  w-12 sm:visible invisible " src="/images/star1.png" alt="" />
+                   <Image height={100} width={100} className="mx-80  w-12 sm:visible invisible " src="/images/star1.png" alt="" />
                 </div>
             </div>
 

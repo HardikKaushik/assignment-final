@@ -1,20 +1,9 @@
 'use client';
-import { NextPage } from "next";
+import Image from 'next/image';
 import { Link as ScrollLink } from 'react-scroll';
 import React from "react";
 function Navbar() {
-  // const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-  //   // first prevent the default behavior
-  //   e.preventDefault();
-  //   // get the href and remove everything before the hash (#)
-  //   const href = e.currentTarget.href;
-  //   const targetId = href.replace(/.*\#/, "");
-  //   // get the element by id and use scrollIntoView
-  //   const elem = document.getElementById(targetId);
-  //   elem?.scrollIntoView({
-  //     behavior: "smooth",
-  //   });
-  // };
+  
   return (
     <>
     <header className="text-gray-600 body-font ">
@@ -39,7 +28,7 @@ function Navbar() {
       
     </button>
 
-    <img className="mx-8 w-12 sm:visible invisible " src="/images/star1.png" alt="" />
+    <Image width={100} height={100} className="mx-8 w-12 sm:visible invisible " src="/images/star1.png" alt="" />
   </div>
 </header>
     </>

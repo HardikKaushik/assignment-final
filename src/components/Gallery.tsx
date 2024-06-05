@@ -21,7 +21,7 @@ const Gallery = () => {
       <h1 className="sm:text-3xl text-2xl font-extrabold title-font text-black  lg:w-1/3 lg:mb-0 mb-4">App Gallery</h1>
       
       <p className="lg:pl-6 lg:w-2/3 mx-auto text-black leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-      <img className="mx-80  w-12 sm:visible invisible " src="/images/star1.png" alt="" />
+      <Image width={100} height={100} className="mx-80  w-12 sm:visible invisible " src="/images/star1.png" alt="" />
     </div>
     
     <div className="flex flex-wrap md:-m-2 -m-1">
@@ -49,7 +49,7 @@ const Gallery = () => {
       </div>
     </div>
   </div>
-</section>/
+</section>
     </>
   )
 }

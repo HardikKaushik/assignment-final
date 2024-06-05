@@ -1,6 +1,6 @@
 'use Client';
 import josndata from '../data/data.json'
-
+import Image  from 'next/image';
 
 function Testimonials() {
             
@@ -25,41 +25,41 @@ function Testimonials() {
           
         </div>
       </div>
-      <img className="absolute sm:top-[113rem] top-[128rem] z-30 sm:left-48 left-18 h-1/3 sm:h-1/2 rounded" alt="hero" src="images/test1.png"/>
+      <Image width={400} height={400} className="absolute sm:top-[113rem] top-[128rem] z-30 sm:left-48 left-12 h-1/3 sm:h-1/2 rounded" alt="hero" src="/images/test1.png"/>
       
-      <img
+      <Image width={600} height={400}
           src="/images/circlehero.png"
           alt="iPhone 3"
           className="absolute sm:top-[99rem] top-[121rem] sm:left-1 -left-6 transform  z-20"
           
         />
         
-      <img
+      <Image width={300} height={200}
           src="/images/test2.png"
           alt="iPhone 3"
-          className="absolute sm:top-[103rem] top-[120rem] sm:left-80 left-40  transform  z-20"
+          className="absolute sm:top-[103rem] top-[120rem]  sm:left-80 left-40  transform  z-20"
           
         />
-      <img
+      <Image width={300} height={400}
           src="/images/test3.png"
           alt="iPhone 3"
           className="absolute sm:top-[106rem] top-[120rem] left-8 transform  z-20"
           
         />
-      <img
+      <Image width={350} height={400}
           src="/images/test4.png"
           alt="iPhone 3"
           className="absolute sm:top-[124rem] top-[135rem] left-2 sm:left-12 transform  z-20"
           
         />
         
-      <img
+      <Image width={300} height={300}
           src="/images/test5.png"
           alt="iPhone 3"
           className="absolute sm:top-[128rem] top-[136rem]  sm:left-80 left-40 transform  z-20"
           
         />
-      <img className="mx-8  w-12 sm:visible invisible " src="/images/star1.png" alt="" />
+      <Image width={100} height={100} className="mx-8  w-12 sm:visible invisible " src="/images/star1.png" alt="" />
 
         
     </div>
